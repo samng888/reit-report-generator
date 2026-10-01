@@ -80,7 +80,7 @@ def compute_dynamic_icr(reit):
 def get_reit_data():
     results = []
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    //output_filename = "REIT_Analysis_Dashboard.xlsx"
+    output_filename = "REIT_Analysis_Dashboard.xlsx"
     
     risk_free_rate = get_risk_free_rate()
     dynamic_yield_threshold = risk_free_rate + 2.5
