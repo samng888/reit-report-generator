@@ -3,7 +3,8 @@ import os
 import time
 
 # Import your script function (assuming you name your file reit_engine.py)
-from Reit_to_excel_withTNX import get_reit_data, output_filename
+from Reit_to_excel_withTNX import get_reit_data
+output_filename = "REIT_Analysis_Dashboard.xlsx"
 
 st.set_page_config(page_title="REIT Analysis Generator", page_icon="📈", layout="centered")
 
